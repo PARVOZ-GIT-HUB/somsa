@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header-jizzax {
+  background-color: #fc772c;
+  min-height: 100vh;
+  background-position: top;
+  background-image: url(./images/yurak.svg);
+  background-repeat: no-repeat;
+}
+
+.header-jizzax .birinchi nav {
+  padding: 35px 40px 0 40px;
+}
+
+.header-jizzax .birinchi nav .navbar-brand {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+.header-jizzax .birinchi nav .navbar-brand p {
+  margin: 0;
+  border-left: 1px solid white;
+  color: white;
+  margin-left: 10px;
+  padding: 0 0 0 10px;
+}
+
+.header-jizzax .birinchi nav .menular {
+  padding-left: 5%;
+}
+
+.header-jizzax .birinchi nav .menular ul {
+  width: 100%;
+}
+
+.header-jizzax .birinchi nav .menular ul li {
+  margin-left: 5%;
+}
+
+.header-jizzax .birinchi nav .menular ul li a {
+  color: white;
+  font-family: "Comfortaa", cursive;
+  font-size: 20px;
+}
+
+.header-jizzax .birinchi nav .menular ul li:nth-child(5) {
+  background-color: white;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.header-jizzax .birinchi nav .menular ul li:nth-child(5) .kirish {
+  color: #252322;
+}
+
+.header-jizzax .birinchi .jizzax-content {
+  width: 100%;
+  border: 1px solid white;
+  border-radius: 10px;
+  height: 350px;
+  margin-top: 50px;
+}
+
+.header-jizzax .birinchi .jizzax-content .row {
+  padding: 0;
+  margin: 0;
+}
+
+.header-jizzax .birinchi .jizzax-content .row .ustun-1 {
+  padding: 40px 0 30px 50px;
+}
+
+.header-jizzax .birinchi .jizzax-content .row .ustun-1 p:nth-child(1) {
+  color: white;
+  font-size: 26px;
+  font-weight: bold;
+  width: 60%;
+  line-height: 28px;
+}
+
+.header-jizzax .birinchi .jizzax-content .row .ustun-1 p:nth-child(2) {
+  color: white;
+  width: 60%;
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+.header-jizzax .birinchi .jizzax-content .row .ustun-1 button {
+  padding: 10px 40px;
+  border: 1px solid white;
+  border-radius: 10px;
+  background: transparent;
+  color: white;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.header-jizzax .birinchi .jizzax-content .row .ustun-2 img {
+  width: 90%;
+  height: 95%;
+}
+
+.header-jizzax .birinchi .jizzax-card {
+  width: 80%;
+  margin: 30px auto;
+}
+
+.header-jizzax .birinchi .jizzax-card .row .next .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 15px;
+  padding: 10px 20px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.header-jizzax .birinchi .jizzax-card .row .next .card .card-content p {
+  margin: 0;
+}
+
+.header-jizzax .birinchi .jizzax-card .row .next .card .card-content p:nth-child(1) {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Comfortaa', cursive;
+}
+
+.header-jizzax .birinchi .jizzax-card .row .next .card .card-content p:nth-child(2) {
+  color: #252322;
+  font-family: 'Comfortaa', cursive;
+  font-size: 14px;
+  opacity: 0.7;
+}
+/*# sourceMappingURL=style.css.map */
